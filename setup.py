@@ -9,7 +9,7 @@ except ImportError:
 
 setup(
     name = 'bottle-pycassa',
-    version = '0.3',
+    version = '0.1',
     description = 'Pycassa integration for Bottle.',
     author = 'David McNelis',
     author_email = 'dmcnelis@gmail.com',
