@@ -1,10 +1,3 @@
-bottle-pycassa
-==============
-
-Plugin for bottle to allow for cassandra connection pools
-
-Usage example:
-```
 import bottle
 from bottle import run, get
 from bottle import HTTPError
@@ -33,4 +26,3 @@ def show(query, cass):
         return HTTPError(404, 'Entity not found.') 
 
 run(app=app, host='localhost', port=80, reloader=True)
-```
